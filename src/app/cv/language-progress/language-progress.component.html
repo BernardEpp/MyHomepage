@@ -1,10 +1,10 @@
 <div class="content box">
-  <h3>
+  <h4>
     {{ Title }}
-  </h3>
+  </h4>
   <div *ngIf="Level">{{ Level }}</div>
   <progress
-    class="progress is-success is-medium"
+    class="progress is-success is-medium has-text-grey"
     value="{{ Value }}"
     max="100"
   ></progress>

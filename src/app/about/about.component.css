@@ -1,0 +1,5 @@
+/* Style that first letter! */
+.content::first-letter {
+  initial-letter: 2;
+  margin-right: 0.5rem;
+}

@@ -3,4 +3,5 @@
 /* @import "bulma-extensions/dist/css/bulma-extensions.min.css"; */
 @import "bulma-tooltip/dist/css/bulma-tooltip.min.css";
 @import "bulma-extensions/bulma-divider/dist/css/bulma-divider.min.css";
-@import "material-icons/iconfont/material-icons.css";
+@import "bulma-list/css/bulma-list.css";
+@import "material-icons/css/material-icons.min.css";

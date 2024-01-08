@@ -3,6 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { CvItem } from '../models/CvItem';
 import { Language } from '../models/Language';
 import { SkillItem } from '../models/SkillItem';
+import { CvListItem } from '../models/CvListItem';
 
 type CvContent = {
   Languages: Array<Language>;
@@ -16,6 +17,8 @@ type CvContent = {
   Skills: Array<string>;
   Tools: Array<string>;
   Volunteering: Array<CvItem>;
+  Achievements: Array<CvListItem>;
+  Workshops: Array<CvListItem>;
 };
 
 @Component({

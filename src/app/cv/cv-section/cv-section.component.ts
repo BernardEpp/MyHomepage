@@ -6,5 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './cv-section.component.css',
 })
 export class CvSectionComponent {
+  @Input() Icon: string = '';
   @Input() Title: string = '';
 }

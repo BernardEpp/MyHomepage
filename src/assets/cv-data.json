@@ -23,20 +23,30 @@
   ],
   "Work": [
     {
-      "Title": "mtMax GmbH",
-      "ContentTitle": "Software Developer (Working Student)",
-      "Content": "Development of Android based Point of Sales Software. Work included integration of ZVT and SumUp Payment APIs, PDF Invoice System, Customer Display API, CSV and Excel import/export for a time tracking system. (Java, Android OS, Hardware Interface, REST Api)",
-      "Location": "Wiesloch, Germany",
-      "Date": "06/2017-10/2019",
-      "Tags": ["Android", "Java", "Hardware Interface"],
-      "Link": "https://www.kasse-speedy.de"
+      "Title": "MHP GmbH",
+      "Location": "Ludwigsburg, Germany",
+      "Date": "08/2023-Today",
+      "ContentTitle": "Senior Consultant / Software Engineer",
+      "Content": "Lead Developer for DB Migration to AWS and related backend development for a large production archive system.",
+      "Tags": [
+        "Angular",
+        "C#",
+        ".NET",
+        "Terraform",
+        "AWS",
+        "Azure Entra",
+        "Docker",
+        "Apache Spark",
+        "PostgreSQL"
+      ],
+      "Link": "https://www.mhp.com/"
     },
     {
       "Title": "ETAS GmbH, Stuttgart",
       "Location": "Stuttgart, Germany",
       "Date": "11/2019-05/2023",
       "ContentTitle": "Software Engineer",
-      "Content": "10/2022-05/2023 Development Etas MDA Measure Data Analyzer. - (C#, WPF, Jenkins, SAFe) 01/2022 - 09/2022 Concept and build of a linux build system with web server and web application. - (Linux, Bash, Docker, Jenkins, Python , Apache) 03/2020 - 12/2021 Concept & development of a configuration tool for a measurement device. - (C#, WPF, SAFe) until 03/2020 Implementation of a measurement protocol (XCP) for a test framework. - (Python, Networking Technologies)",
+      "Content": "<ul><li> Development of Etas MDA Measure Data Analyzer (MDA)</li> <li> Concept and build of a linux build system for embedded devices with web server and web application</li> <li> Concept & development of a configuration tool for a measurement device</li> <li> Implementation of a measurement protocol (XCP) for a test framework.</li></ul> ",
       "Tags": [
         "C#",
         "WPF",
@@ -55,57 +65,47 @@
       "Link": "https://www.etas.com/"
     },
     {
-      "Title": "MHP GmbH",
-      "Location": "Ludwigsburg, Germany",
-      "Date": "08/2023-Today",
-      "ContentTitle": "Senior Consultant / Software Engineer",
-      "Content": "Lead Developer for DB Migration to AWS and related backend development for a large production archive system (AWS, ETL with Python / Apache Spark, C#, PostgreSQL, Angular).",
-      "Tags": [
-        "Angular",
-        "C#",
-        ".NET",
-        "Terraform",
-        "AWS",
-        "Azure Entra",
-        "Docker",
-        "Apache Spark",
-        "PostgreSQL"
-      ],
-      "Link": "https://www.mhp.com/"
+      "Title": "mtMax GmbH",
+      "ContentTitle": "Software Developer (Working Student)",
+      "Content": "Development of Android based Point of Sales Software in a succesful start-up.<ul><li> Integration of ZVT and SumUp Payment APIs</li><li> Implementatio of a PDF Invoice System </li><li> Integraton of a Customer Display API</li><li> Implementation of a CSV and Excel import/export functionality for a time tracking system</li></ul> ",
+      "Location": "Wiesloch, Germany",
+      "Date": "06/2017-10/2019",
+      "Tags": ["Android", "Java", "Hardware Interface"],
+      "Link": "https://www.kasse-speedy.de"
     }
   ],
   "Education": [
     {
-      "Title": "Heidelberg University",
-      "ContentTitle": "B.Sc. Physics",
-      "Content": "<span>Thesis:</span> <br />Setup, execution and evaluation of two ADC test systems <br /> (overall grade 2,2 / good)",
-      "Location": "Heidelberg, Germany",
-      "Date": "09/2012-03/2016",
-      "Tags": ["Python", "Linux", "Hardware Interface", "Test Automation"],
-      "Link": "https://www.uni-heidelberg.de/en/"
-    },
-    {
-      "Title": "University of Guelph",
-      "ContentTitle": "OBW Exchange Program",
-      "Content": "2 semester as a physics student with the Ontario-Baden-Württemberg (OBW) program attended beginner lectures for computer science (C, Java OOP, FPGA Development in VHDL)",
-      "Location": "Guelph, Canada",
-      "Date": "08/2016-04/2017",
-      "Tags": ["Java", "C", "VHDL"],
-      "Link": "https://www.uoguelph.ca"
-    },
-    {
       "Title": "Marburg University",
       "ContentTitle": "M.Sc. Physics",
-      "Content": "Thesis: <br />Development and evaluation of a force field simulation of a semiconductor material using a high performance computing system. (Python, C++, high-performance computing, solid state physics, optics). Summer School in Simulations of Stellar Structures (University of Santa Barbara, USA, 2018)",
+      "Content": " <p>Thesis: <br /><em>Development and evaluation of a force field simulation of a semiconductor material using a high performance computing system. </em></p><p>Seminar in Simulations of Stellar Structures</p><p><em>Overall grade: 1,5 (very good)</em></p>",
       "Location": "Marburg, Germany",
       "Date": "10/2017-05/2019",
       "Tags": ["Python", "HPC", "C++"],
       "Link": "https://www.uni-marburg.de/en/wzmw"
     },
     {
+      "Title": "University of Guelph",
+      "ContentTitle": "OBW Exchange Program",
+      "Content": "2 semester as a physics student with the Ontario-Baden-Württemberg (OBW) program attended beginner lectures for computer science",
+      "Location": "Guelph, Canada",
+      "Date": "08/2016-04/2017",
+      "Tags": ["Java", "C", "VHDL"],
+      "Link": "https://www.uoguelph.ca"
+    },
+    {
+      "Title": "Heidelberg University",
+      "ContentTitle": "B.Sc. Physics",
+      "Content": " <p>Thesis: <br /><em>Setup, execution and evaluation of two ADC test systems </em></p><p><em>Overall grade: 2,2 (good)</em></p>",
+      "Location": "Heidelberg, Germany",
+      "Date": "09/2012-03/2016",
+      "Tags": ["Python", "Linux", "Hardware Interface", "Test Automation"],
+      "Link": "https://www.uni-heidelberg.de/en/"
+    },
+    {
       "Title": "Englisches Institut Heidelberg",
       "ContentTitle": "Higher Education Entrance Qualification (A-levels)",
-      "Content": "schools physics award of the german physical society (DPG) 2012, participation in school orchestra and student council",
+      "Content": "Lead Developer for DB Migration to AWS and related backend development<ul><li>Schools physics award of the german physical society (DPG) 2012</li><li>participation in school orchestra and student council</li><li>Bilingual classes from seventh grade onwards</li></ul> <p><em>Overall grade: 1,3 (very good)</em></p> ",
       "Location": "Heidelberg, Germany",
       "Date": "09/2003-07/2012"
     }
@@ -119,7 +119,12 @@
     "React",
     "ASP .NET"
   ],
-  "Technologies": ["PostgreSQL", "AWS", "Azure Entra (Active Directory)"],
+  "Technologies": [
+    "PostgreSQL",
+    "AWS",
+    "Azure Entra (Active Directory)",
+    "TCP/IP"
+  ],
   "ProgrammingLanguages": [
     { "Name": "C#", "Level": "Advanced" },
     { "Name": "Python", "Level": "Advanced but rusty" },
@@ -131,7 +136,7 @@
   ],
   "Tools": ["Jenkins", "Bitbucket", "GitLab", "Artifactory", "Git"],
   "Organizational": ["Agile", "Scrum", "SAFe"],
-  "Systems": ["Windows", "Linux (Ubuntu, Debian)"],
+  "Systems": ["Windows", "Linux (Ubuntu, Debian)", "Android"],
   "Interests": [
     "Cooking",
     "History Nerd",
@@ -146,6 +151,7 @@
     "Communication",
     "Requirements Engineering",
     "UI/UX",
+    "Figma",
     "Physics",
     "Electron Microscopy",
     "Semiconductors",
@@ -159,6 +165,44 @@
       "Location": "Wiesloch, Germany",
       "Date": "2010-2019",
       "Link": "https://kjg-wiesloch.de"
+    }
+  ],
+  "Workshops": [
+    {
+      "Title": "MESA Summer School",
+      "Location": "Univeristy of California, Santa Barbara (USA)",
+      "Date": "2018",
+      "Content": "Summer School in Simulations of Stellar Structures"
+    },
+    {
+      "Title": "Creation of programming projects with Python",
+      "Location": "Center for Scientific Computing (CSC) Frankfurt",
+      "Date": "2018",
+      "Content": "Topics: Environment isolation Structure of projects, Test Driven Development, clean coding, good coding style with Python"
+    },
+    {
+      "Title": "Introduction to hybrid computing in HPC",
+      "Location": "VSC TU Vienna",
+      "Date": "2018",
+      "Content": "Lectures and practicals on Hybrid Programming on Modern Compute Clusters with Multicore Processors and Accelerators."
+    }
+  ],
+  "Achievements": [
+    {
+      "Title": "B2 Dutch Course and Nt2 Exam Preparation",
+      "Content": "Online Course to reach B2 Level in Dutch and preparation for the official Nt2 Exam, 2023"
+    },
+    {
+      "Title": "AWS Certified Cloud Practitioner",
+      "Content": "2023"
+    },
+    {
+      "Title": "TOEFL iBT Test",
+      "Content": "2015"
+    },
+    {
+      "Title": "Bilingual Certificate (English)",
+      "Content": "2012"
     }
   ]
 }

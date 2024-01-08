@@ -2,9 +2,26 @@
 <div class="content">
   <router-outlet></router-outlet>
 </div>
-<span class="icon"> <i class="fas fa-home"></i> </span>
 <footer class="footer">
-  <div class="content has-text-centered">
-    <p>Copyright © 2023 Bernard Epp</p>
+  <div class="content has-text-centered has-text-grey">
+    <p class="icon-text">
+      <span> Copyright </span>
+      <span class="icon">
+        <i class="material-symbols-outlined">copyright</i>
+      </span>
+      <span> {{ Year }} Bernard Epp </span>
+    </p>
+    <!-- <p>Copyright © {{ Year }} Bernard Epp</p> -->
+    <br />
+    <p class="icon-text">
+      <span> Created with </span>
+      <span class="icon">
+        <i class="material-symbols-outlined">favorite</i>
+      </span>
+      <span> Please share </span>
+      <span class="icon">
+        <i class="material-symbols-outlined">favorite</i>
+      </span>
+    </p>
   </div>
 </footer>

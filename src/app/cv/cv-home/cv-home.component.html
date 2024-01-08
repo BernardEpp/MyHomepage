@@ -1,6 +1,6 @@
 <div class="container">
   <app-cv-contact></app-cv-contact>
-  <app-cv-section Title="Education">
+  <app-cv-section Title="Education" Icon="school">
     <div class="columns is-multiline">
       <app-cv-entry-card
         class="column is-4"
@@ -11,7 +11,7 @@
     </div>
   </app-cv-section>
 
-  <app-cv-section Title="Work">
+  <app-cv-section Title="Work" Icon="work">
     <div class="columns is-multiline">
       <div *ngFor="let workItem of data?.Work" class="column is-one-third">
         <app-cv-entry-card [Data]="workItem"
@@ -21,11 +21,11 @@
     </div>
   </app-cv-section>
 
-  <app-cv-section Title="Languages">
+  <app-cv-section Title="Languages" Icon="language">
     <div class="columns is-multiline">
       <app-language-progress
         *ngFor="let language of data?.Languages"
-        class="column is-one-third"
+        class="column is-one-quarter"
         [Title]="language.Language"
         [Level]="language.Level"
         [Value]="language.Value"
@@ -33,32 +33,70 @@
     </div>
   </app-cv-section>
 
+  <div class="columns">
+    <app-cv-section class="column is-half" Title="Achievements" Icon="trophy">
+      <div class="list">
+        <div class="list-item" *ngFor="let achievement of data?.Achievements">
+          <div class="list-item-content">
+            <div class="list-item-title">
+              {{ achievement.Title }}
+            </div>
+            <div class="list-item-description">{{ achievement.Content }}</div>
+          </div>
+        </div>
+      </div>
+    </app-cv-section>
+    <app-cv-section class="column is-half" Title="Workshops" Icon="award_star">
+      <div class="list">
+        <div class="list-item" *ngFor="let workshop of data?.Workshops">
+          <div class="list-item-content">
+            <div class="list-item-title">
+              {{ workshop.Title }}, {{ workshop.Location }}, {{ workshop.Date }}
+            </div>
+            <div class="list-item-description">{{ workshop.Content }}</div>
+          </div>
+        </div>
+      </div>
+    </app-cv-section>
+  </div>
   <div class="columns is-multiline">
-    <app-cv-section class="column is-one-third" Title="Technologies">
+    <app-cv-section
+      class="column is-one-third"
+      Title="Technologies"
+      Icon="integration_instructions"
+    >
       <app-tag-list class="box" [Tags]="data?.Technologies"></app-tag-list>
     </app-cv-section>
-    <app-cv-section class="column is-one-third" Title="Programming Languages">
+    <app-cv-section class="column is-one-third" Title="Languages" Icon="code">
       <app-skills-list
         class="box"
         [Skills]="data?.ProgrammingLanguages"
       ></app-skills-list>
     </app-cv-section>
-    <app-cv-section class="column is-one-third" Title="Tools">
+    <app-cv-section class="column is-one-third" Title="Tools" Icon="build">
       <app-tag-list class="box" [Tags]="data?.Tools"></app-tag-list>
     </app-cv-section>
-    <app-cv-section class="column is-one-third" Title="Systems">
+    <app-cv-section class="column is-one-third" Title="Systems" Icon="devices">
       <app-tag-list class="box" [Tags]="data?.Systems"></app-tag-list>
     </app-cv-section>
 
-    <app-cv-section class="column is-one-third" Title="Org">
+    <app-cv-section class="column is-one-third" Title="Org" Icon="view_kanban">
       <app-tag-list class="box" [Tags]="data?.Organizational"></app-tag-list>
     </app-cv-section>
 
-    <app-cv-section class="column is-full" Title="Additional Skills">
+    <app-cv-section
+      class="column is-full"
+      Title="Additional Skills"
+      Icon="info"
+    >
       <app-tag-list class="box" [Tags]="data?.Skills"></app-tag-list>
     </app-cv-section>
 
-    <app-cv-section class="column is-full" Title="Volunteering">
+    <app-cv-section
+      class="column is-full"
+      Title="Volunteering"
+      Icon="volunteer_activism"
+    >
       <div class="columns is-multiline">
         <div
           *ngFor="let volunteerItem of data?.Volunteering"
@@ -71,7 +109,11 @@
       </div>
     </app-cv-section>
 
-    <app-cv-section class="column is-full" Title="Interests">
+    <app-cv-section
+      class="column is-full"
+      Title="Interests"
+      Icon="sports_basketball"
+    >
       <app-tag-list class="box" [Tags]="data?.Interests"></app-tag-list>
     </app-cv-section>
   </div>

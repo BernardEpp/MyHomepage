@@ -1,7 +1,13 @@
 <div class="card">
   <a *ngIf="Data?.Link" [href]="Data?.Link" target="_blank">
     <header class="card-header">
-      <p class="card-header-title">{{ Data?.Title }}</p>
+      <span class="icon-text card-header-title">
+        <span class="icon">
+          <i class="material-symbols-outlined">location_on</i>
+        </span>
+        <span> {{ Data?.Title }} </span>
+      </span>
+      <!-- <p class="card-header-title">{{ Data?.Title }}</p> -->
     </header>
   </a>
   <header *ngIf="!Data?.Link" class="card-header">
@@ -10,12 +16,14 @@
 
   <div class="card-content">
     <h4>{{ Data?.ContentTitle }}</h4>
-    <ng-content class="content"></ng-content>
+    <div class="content">
+      <ng-content></ng-content>
+    </div>
     <div>
       <app-tag-list [Tags]="Data?.Tags"></app-tag-list>
     </div>
   </div>
-  <footer class="card-footer is-size-6-desktop is-size-5-mobile">
+  <footer class="card-footer is-size-6-desktop is-size-5-mobile has-text-grey">
     <div *ngIf="Data?.Location">
       <div class="card-footer-item">
         {{ Data?.Location }}
