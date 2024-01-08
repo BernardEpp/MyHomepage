@@ -1,0 +1,10 @@
+<div *ngFor="let project of projects" class="container is-max-desktop">
+  <app-project-card
+    [title]="project.title"
+    [subtitle]="project.subtitle"
+    [date]="project.date"
+    [content]="project.content"
+    [tags]="project.tags"
+    [repoUrl]="project.repoUrl"
+  ></app-project-card>
+</div>

@@ -1,0 +1,7 @@
+<div
+  *ngFor="let skill of Skills"
+  class="tag ml-0 mr-2 mt-1 bt-1 has-tooltip-primary"
+  [attr.data-tooltip]="skill.Level"
+>
+  {{ skill.Name }}
+</div>

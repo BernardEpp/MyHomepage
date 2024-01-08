@@ -1,0 +1,78 @@
+<div class="container">
+  <app-cv-contact></app-cv-contact>
+  <app-cv-section Title="Education">
+    <div class="columns is-multiline">
+      <app-cv-entry-card
+        class="column is-4"
+        *ngFor="let educationItem of data?.Education"
+        [Data]="educationItem"
+        ><div [innerHTML]="educationItem.Content"></div>
+      </app-cv-entry-card>
+    </div>
+  </app-cv-section>
+
+  <app-cv-section Title="Work">
+    <div class="columns is-multiline">
+      <div *ngFor="let workItem of data?.Work" class="column is-one-third">
+        <app-cv-entry-card [Data]="workItem"
+          ><div [innerHTML]="workItem.Content"></div>
+        </app-cv-entry-card>
+      </div>
+    </div>
+  </app-cv-section>
+
+  <app-cv-section Title="Languages">
+    <div class="columns is-multiline">
+      <app-language-progress
+        *ngFor="let language of data?.Languages"
+        class="column is-one-third"
+        [Title]="language.Language"
+        [Level]="language.Level"
+        [Value]="language.Value"
+      ></app-language-progress>
+    </div>
+  </app-cv-section>
+
+  <div class="columns is-multiline">
+    <app-cv-section class="column is-one-third" Title="Technologies">
+      <app-tag-list class="box" [Tags]="data?.Technologies"></app-tag-list>
+    </app-cv-section>
+    <app-cv-section class="column is-one-third" Title="Programming Languages">
+      <app-skills-list
+        class="box"
+        [Skills]="data?.ProgrammingLanguages"
+      ></app-skills-list>
+    </app-cv-section>
+    <app-cv-section class="column is-one-third" Title="Tools">
+      <app-tag-list class="box" [Tags]="data?.Tools"></app-tag-list>
+    </app-cv-section>
+    <app-cv-section class="column is-one-third" Title="Systems">
+      <app-tag-list class="box" [Tags]="data?.Systems"></app-tag-list>
+    </app-cv-section>
+
+    <app-cv-section class="column is-one-third" Title="Org">
+      <app-tag-list class="box" [Tags]="data?.Organizational"></app-tag-list>
+    </app-cv-section>
+
+    <app-cv-section class="column is-full" Title="Additional Skills">
+      <app-tag-list class="box" [Tags]="data?.Skills"></app-tag-list>
+    </app-cv-section>
+
+    <app-cv-section class="column is-full" Title="Volunteering">
+      <div class="columns is-multiline">
+        <div
+          *ngFor="let volunteerItem of data?.Volunteering"
+          class="column is-one-third"
+        >
+          <app-cv-entry-card [Data]="volunteerItem">
+            <div [innerHTML]="volunteerItem.Content"></div>
+          </app-cv-entry-card>
+        </div>
+      </div>
+    </app-cv-section>
+
+    <app-cv-section class="column is-full" Title="Interests">
+      <app-tag-list class="box" [Tags]="data?.Interests"></app-tag-list>
+    </app-cv-section>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item">
+      <figure class="image">
+        <img class="is-rounded" src="/assets/DSCF2952-tiny.jpg" />
+      </figure>
+    </a>
+    <a
+      role="button"
+      class="navbar-burger"
+      (click)="onBurgerClick()"
+      [ngClass]="isBurgerExpanded ? 'is-active' : ''"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarBasicExample"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div
+    id="navbarBasicExample"
+    class="navbar-menu"
+    [ngClass]="isBurgerExpanded ? 'is-active' : ''"
+  >
+    <div class="navbar-start">
+      <a
+        class="navbar-item"
+        routerLink="/"
+        isRouterLinkActive="active"
+        (click)="isBurgerExpanded = !isBurgerExpanded"
+        >Home</a
+      >
+      <a
+        class="navbar-item"
+        routerLink="/projects"
+        isRouterLinkActive="active"
+        (click)="isBurgerExpanded = !isBurgerExpanded"
+        >Projects</a
+      >
+      <a
+        class="navbar-item"
+        routerLink="/cv"
+        isRouterLinkActive="active"
+        (click)="isBurgerExpanded = !isBurgerExpanded"
+        >CV</a
+      >
+      <a
+        class="navbar-item"
+        routerLink="/about"
+        isRouterLinkActive="active"
+        (click)="isBurgerExpanded = !isBurgerExpanded"
+        >About Me</a
+      >
+    </div>
+  </div>
+  <!-- <div class="navbar-end">
+    <div class="navbar-item">
+      <div class="buttons">
+        <a class="button"> Light Mode </a>
+        <a class="button is-light"> Dark Mode </a>
+      </div>
+    </div>
+  </div> -->
+</nav>
