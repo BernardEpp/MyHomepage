@@ -1,24 +1,17 @@
 <div class="card">
-  <!-- <header class="card-header">
-    <p class="card-header-title">THis is my header</p>
-  </header> -->
-  <div class="content">
-    <div class="section">
-      <p class="title is-4">{{ title }}</p>
-      <div class="subtitle is-6 has-text-grey">
-        <time> {{ date }} </time>
-        <br />
-        <span> {{ subtitle }} </span>
-        <br />
-        <ng-container *ngFor="let tag of tags">
-          <span class="tag ml-0 mr-2 mt-1 bt-1"> {{ tag }} </span>
-        </ng-container>
-      </div>
-      <br />
-      {{ content }}
+  <header class="card-header">
+    <p class="card-header-title">{{ title }}</p>
+  </header>
+  <div class="card-content">
+    <div class="content">
+      <p *ngIf="subtitle" class="subtitle is-6 has-text-grey">{{ subtitle }}</p>
+      <ng-content></ng-content>
+    </div>
+    <div>
+      <app-tag-list [Tags]="tags"></app-tag-list>
     </div>
   </div>
-  <footer class="card-footer has-text-grey">
+  <footer class="card-footer is-size-6 has-text-grey">
     <p class="card-footer-item">
       <span>
         View on

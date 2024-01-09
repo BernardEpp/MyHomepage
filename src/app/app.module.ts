@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     NotFoundComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, SharedModule],
   providers: [],
   bootstrap: [AppComponent],
 })

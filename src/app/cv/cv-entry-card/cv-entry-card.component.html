@@ -7,7 +7,6 @@
         </span>
         <span> {{ Data?.Title }} </span>
       </span>
-      <!-- <p class="card-header-title">{{ Data?.Title }}</p> -->
     </header>
   </a>
   <header *ngIf="!Data?.Link" class="card-header">
@@ -23,7 +22,7 @@
       <app-tag-list [Tags]="Data?.Tags"></app-tag-list>
     </div>
   </div>
-  <footer class="card-footer is-size-6-desktop is-size-5-mobile has-text-grey">
+  <footer class="card-footer is-size-6 has-text-grey">
     <div *ngIf="Data?.Location">
       <div class="card-footer-item">
         {{ Data?.Location }}

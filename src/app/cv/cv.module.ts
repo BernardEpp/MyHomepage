@@ -9,7 +9,7 @@ import { CvContactComponent } from './cv-contact/cv-contact.component';
 import { LanguageProgressComponent } from './language-progress/language-progress.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SkillsListComponent } from './skills-list/skills-list.component';
-import { TagListComponent } from './tag-list/tag-list.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -19,8 +19,7 @@ import { TagListComponent } from './tag-list/tag-list.component';
     CvContactComponent,
     LanguageProgressComponent,
     SkillsListComponent,
-    TagListComponent,
   ],
-  imports: [CommonModule, CvRoutingModule, HttpClientModule],
+  imports: [CommonModule, CvRoutingModule, HttpClientModule, SharedModule],
 })
 export class CvModule {}
