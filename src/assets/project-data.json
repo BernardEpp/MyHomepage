@@ -1,23 +1,24 @@
 [
   {
     "title": "My Personal Website",
-    "subtitle": "",
+    "subtitle": "I build this website to showcase my cv and what else I learned.",
     "date": "01/2024",
-    "content": "I build this website to showcase my cv and what else I learned.",
+    "content": "The website is build with Angular, Bulma CSS and hosted on firebase",
     "tags": ["Angular", "Bulma CSS"],
     "repoUrl": "https://github.com/BernardEpp/MyHomepage"
   },
   {
     "title": "Go Course",
-    "subtitle": "Go Basic Course by Stephen Grider",
+    "subtitle": "I learned the basics of go.",
     "date": "11/2023",
-    "content": "I learned the basics of go.",
+    "content": "<p>Basic Go course that covered: </p> <ul> <li>How to build concurrent programs with Go routines and channels</li> <li>Advanced features of Go</li> <li>The differences between commonly used data structures</li> <li>Interfaces in Go</li> <li>Types in Go</li> </ul>",
     "tags": ["Go"],
-    "repoUrl": "https://github.com/BernardEpp/go-course.git"
+    "repoUrl": "https://github.com/BernardEpp/go-course.git",
+    "courseUrl": "https://www.udemy.com/course/go-the-complete-developers-guide/"
   },
   {
     "title": "Microservice Architecture with C#",
-    "subtitle": "I build a Microsverice Applickation using C#",
+    "subtitle": "I build a Microsverice Application using C#. (Okay, it's still work in progress...)",
     "date": "10/2023",
     "content": "In this course  by Neil Cummings, I build an auction house application using a microservice architecture in C#",
     "tags": [
@@ -32,9 +33,9 @@
   },
   {
     "title": "Microservices with Node JS and React",
-    "subtitle": "",
-    "date": "11/2023",
-    "content": "This course by Stephen Grider was my introduction to microservices. I build a e-commerce platform to purchase tickets.",
+    "subtitle": "This course by Stephen Grider was my introduction to microservices. I build an e-commerce platform to purchase tickets.",
+    "date": "09/2023",
+    "content": "<p>I learned how to : </p> <ul> <li>Architect large, scalable apps using a collection of microservices</li> <li>Deploy a multi-service app to the cloud with Docker and Kubernetes</li><li>Solve concurrency issues in a distributed systems environment</li><li>Build complex applications in JavaScript</li><li>Build a Server-Side Rendered React App to render data from your microservices</li><li>Share reusable code between multiple Express servers using custom NPM packages</li><li>Write comprehensive tests to ensure each service works as designed</li><li>Communicate data between services using a lightning-fast (but deprecated....) event bus</li></ul>",
     "tags": [
       "React",
       "NodeJS",
@@ -43,7 +44,8 @@
       "nats streaming server",
       "SSR"
     ],
-    "repoUrl": "https://github.com/BernardEpp/ticketing.git"
+    "repoUrl": "https://github.com/BernardEpp/ticketing.git",
+    "courseUrl": "https://www.udemy.com/course/microservices-with-node-js-and-react/"
   },
   {
     "title": "Stephen Grider - Modern React with Redux",

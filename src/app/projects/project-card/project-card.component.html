@@ -4,10 +4,14 @@
   </header>
   <div class="card-content">
     <div class="content">
+      <span *ngIf="data?.date" class="subtitle is-6 has-text-grey">
+        {{ data?.date }}
+      </span>
       <p *ngIf="data?.subtitle" class="subtitle is-6 has-text-grey">
         {{ data?.subtitle }}
       </p>
-      <ng-content></ng-content>
+
+      <ng-content mt-3></ng-content>
     </div>
     <div>
       <app-tag-list [Tags]="data?.tags"></app-tag-list>
