@@ -70,7 +70,7 @@
       "Content": "Development of Android based Point of Sales Software in a succesful start-up.<ul><li> Integration of ZVT and SumUp Payment APIs</li><li> Implementatio of a PDF Invoice System </li><li> Integraton of a Customer Display API</li><li> Implementation of a CSV and Excel import/export functionality for a time tracking system</li></ul> ",
       "Location": "Wiesloch, Germany",
       "Date": "06/2017-10/2019",
-      "Tags": ["Android", "Java", "Hardware Interface"],
+      "Tags": ["Android", "Java", "SQL", "Hardware Interface"],
       "Link": "https://www.kasse-speedy.de"
     }
   ],
@@ -134,7 +134,7 @@
     { "Name": "C", "Level": "Basic" },
     { "Name": "Bash", "Level": "Basic" }
   ],
-  "Tools": ["Jenkins", "Bitbucket", "GitLab", "Artifactory", "Git"],
+  "Tools": ["Jenkins", "Bitbucket", "GitLab", "Artifactory", "Git", "SVN"],
   "Organizational": ["Agile", "Scrum", "SAFe"],
   "Systems": ["Windows", "Linux (Ubuntu, Debian)", "Android"],
   "Interests": [
