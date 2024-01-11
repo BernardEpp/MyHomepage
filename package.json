@@ -23,6 +23,8 @@
     "bulma-extensions": "^6.2.7",
     "bulma-list": "^1.2.0",
     "bulma-tooltip": "^3.0.2",
+    "firebase": "^10.7.1",
+    "firebase-tools": "^13.0.3",
     "material-icons": "^1.13.12",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
