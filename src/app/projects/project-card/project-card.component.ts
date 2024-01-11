@@ -7,12 +7,7 @@ import { Project } from '../project';
   styleUrl: './project-card.component.css',
 })
 export class ProjectCardComponent implements OnInit {
-  @Input() title: string = '';
-  @Input() subtitle: string = '';
-  @Input() date: string = '';
-  @Input() content: string = '';
-  @Input() tags: Array<string> = [];
-  @Input() repoUrl: string = '';
+  @Input() data: Project | null = null;
 
   ngOnInit(): void {}
 }

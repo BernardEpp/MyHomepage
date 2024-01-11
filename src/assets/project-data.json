@@ -49,16 +49,16 @@
     "title": "Stephen Grider - Modern React with Redux",
     "subtitle": "",
     "date": "01-07/2023",
-    "content": "<p>Course by <a href='https://www.udemy.com/course/react-redux' target='_blank'>Stephen Grider</a>. This course covered React and Redux Toolkit it included RTK Query, Routing, Immer, tons of custom hooks, and more!</p><ul><li>Create dynamic web apps using the latest in web technology </li><li>Practice your skills with many large projects, exercises, and quizzes </li><li>Master the fundamentals concepts behind React and Redux </li><li>Become fluent in the toolchain supporting React, including NPM, Webpack, Babel, and ES6/ES2015 Javascript syntax </li></ul>",
-    "repoUrl": "",
-    "tags": ["React", "Redux Toolkit", "RTK Query", "React Routing", "Immer"]
+    "content": "<p>Course by Stephen Grider. This course covered React and Redux Toolkit it included RTK Query, Routing, Immer, tons of custom hooks, and more!</p><ul><li>Create dynamic web apps using the latest in web technology </li><li>Practice your skills with many large projects, exercises, and quizzes </li><li>Master the fundamentals concepts behind React and Redux </li><li>Become fluent in the toolchain supporting React, including NPM, Webpack, Babel, and ES6/ES2015 Javascript syntax </li></ul>",
+    "tags": ["React", "Redux Toolkit", "RTK Query", "React Routing", "Immer"],
+    "courseUrl": "https://www.udemy.com/course/react-redux"
   },
   {
     "title": "Tim Corey - Web Development Mastercourse",
     "subtitle": "",
     "date": "04-01/2021",
     "content": "This large course covered the very basics of how the web works: DNS, SSL, CDNs, IP Addresses, Web Servers and then introduced the main players: HTML, CSS, and JavaScript.",
-    "repoUrl": "https://www.iamtimcorey.com/courses/web-dev-mastercourse/",
+    "courseUrl": "https://www.iamtimcorey.com/courses/web-dev-mastercourse/",
     "tags": ["HTML", "CSS", "JS"]
   },
   {
@@ -66,7 +66,7 @@
     "subtitle": "",
     "date": "03/2022",
     "content": "This course was a comprehensive introduction into Docker. Covering, how to build a dockerfile, how to use the command line, how to use Docker with ASP.NET Core, and more.",
-    "repoUrl": "https://www.iamtimcorey.com/courses/docker-from-start-to-finish/",
+    "courseUrl": "https://www.iamtimcorey.com/courses/docker-from-start-to-finish/",
     "tags": ["Docker"]
   },
   {
@@ -74,7 +74,7 @@
     "subtitle": "",
     "date": "03/2022",
     "content": "Introduction to azure, the azure portal, and 14 important services. Those services include: Azure Web Apps, Azure SQL, CosmosDB, SignalR, Key Vault, Azure Storage, Azure Functions, Azure Service Bus",
-    "repoUrl": "https://www.iamtimcorey.com/courses/azure-from-start-to-finish/",
+    "courseUrl": "https://www.iamtimcorey.com/courses/azure-from-start-to-finish/",
     "tags": ["Azure"]
   },
   {
@@ -82,7 +82,7 @@
     "subtitle": "",
     "date": "09/2021",
     "content": "Extensive course by <a href='https://iamtimcorey.com' target='_blank'>Tim Corey</a> on the basics of modern C# Development.'",
-    "repoUrl": "https://www.iamtimcorey.com/courses/csharp-mastercourse/",
+    "courseUrl": "https://www.iamtimcorey.com/courses/csharp-mastercourse/",
     "tags": ["C#", "ASP .NET", "Visual Studio", "WPF", "MVVM", "SOLID"]
   }
 ]

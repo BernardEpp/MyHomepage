@@ -1,22 +1,29 @@
 <div class="card">
   <header class="card-header">
-    <p class="card-header-title">{{ title }}</p>
+    <p class="card-header-title">{{ data?.title }}</p>
   </header>
   <div class="card-content">
     <div class="content">
-      <p *ngIf="subtitle" class="subtitle is-6 has-text-grey">{{ subtitle }}</p>
+      <p *ngIf="data?.subtitle" class="subtitle is-6 has-text-grey">
+        {{ data?.subtitle }}
+      </p>
       <ng-content></ng-content>
     </div>
     <div>
-      <app-tag-list [Tags]="tags"></app-tag-list>
+      <app-tag-list [Tags]="data?.tags"></app-tag-list>
     </div>
   </div>
   <footer class="card-footer is-size-6 has-text-grey">
-    <p class="card-footer-item">
-      <span>
-        View on
-        <a href="{{ repoUrl }}">Github</a>
+    <div *ngIf="data?.repoUrl" class="card-footer-item">
+      <span
+        >View on <a href="{{ data?.repoUrl }}" target="_blank">Github</a>
       </span>
-    </p>
+    </div>
+    <div *ngIf="data?.courseUrl" class="card-footer-item">
+      <span
+        >View Course
+        <a href="{{ data?.courseUrl }}" target="_blank"> Website</a></span
+      >
+    </div>
   </footer>
 </div>

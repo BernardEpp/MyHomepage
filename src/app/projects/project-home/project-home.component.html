@@ -19,12 +19,7 @@
 
   <div class="columns is-multiline">
     <div *ngFor="let project of projects" class="column is-one-third">
-      <app-project-card
-        [title]="project.title"
-        [subtitle]="project.subtitle"
-        [date]="project.date"
-        [tags]="project.tags"
-        [repoUrl]="project.repoUrl"
+      <app-project-card [data]="project"
         ><div [innerHTML]="project.content"></div>
       </app-project-card>
     </div>

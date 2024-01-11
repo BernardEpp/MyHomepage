@@ -5,4 +5,5 @@ export type Project = {
   tags: Array<string>;
   content: string;
   repoUrl: string;
+  courseUrl: string;
 };
