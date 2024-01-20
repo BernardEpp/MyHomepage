@@ -37,7 +37,9 @@
         "Azure Entra",
         "Docker",
         "Apache Spark",
-        "PostgreSQL"
+        "PostgreSQL",
+        "SQL",
+        "Dapper"
       ],
       "Link": "https://www.mhp.com/"
     },
@@ -67,7 +69,7 @@
     {
       "Title": "mtMax GmbH",
       "ContentTitle": "Software Developer (Working Student)",
-      "Content": "Development of Android based Point of Sales Software in a succesful start-up.<ul><li> Integration of ZVT and SumUp Payment APIs</li><li> Implementatio of a PDF Invoice System </li><li> Integraton of a Customer Display API</li><li> Implementation of a CSV and Excel import/export functionality for a time tracking system</li></ul> ",
+      "Content": "Development of Android based Point of Sales Software in a succesful start-up.<ul><li> Integration of ZVT and SumUp Payment APIs</li><li> Implementation of a PDF Invoice System </li><li> Integraton of a Customer Display API</li><li> Implementation of a CSV and Excel import/export functionality for a time tracking system</li></ul> ",
       "Location": "Wiesloch, Germany",
       "Date": "06/2017-10/2019",
       "Tags": ["Android", "Java", "SQL", "Hardware Interface"],
@@ -155,7 +157,8 @@
     "Physics",
     "Electron Microscopy",
     "Semiconductors",
-    "High Performance Computing"
+    "High Performance Computing",
+    "LaTeX"
   ],
   "Volunteering": [
     {
