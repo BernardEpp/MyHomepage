@@ -41,7 +41,8 @@
         "SQL",
         "Dapper"
       ],
-      "Link": "https://www.mhp.com/"
+      "Link": "https://www.mhp.com/",
+      "Organization": "MHP is a Consulting Company and Subsidiary of Porsche AG. MHP digitalizes its customers’ processes and products, and guides them through IT transformations along their entire value-creation chain. MHP is a digitalization pioneer for the mobility and manufacturing sectors with expertise that can be transferred to a wide range of industries."
     },
     {
       "Title": "ETAS GmbH, Stuttgart",
@@ -64,7 +65,8 @@
         "Linux",
         "Apache Webserver"
       ],
-      "Link": "https://www.etas.com/"
+      "Link": "https://www.etas.com/",
+      "Organization": "ETAS is a Subsidiary of the Bosch Group. ETAS provides vehicle basic software, middleware, development tools, cloud-based operations services, cybersecurity solutions, and end-to-end engineering and consulting services for the realization of software-defined vehicles."
     },
     {
       "Title": "mtMax GmbH",
@@ -141,7 +143,7 @@
   "Systems": ["Windows", "Linux (Ubuntu, Debian)", "Android"],
   "Interests": [
     "Cooking",
-    "History Nerd",
+    "History Buff",
     "Gym",
     "Running",
     "Basketball",

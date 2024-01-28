@@ -6,4 +6,5 @@ export type CvItem = {
   Date: string;
   Tags: Array<string>;
   Link: string;
+  Organization: string;
 };

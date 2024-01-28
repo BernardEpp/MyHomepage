@@ -14,8 +14,13 @@
   <app-cv-section Title="Work" Icon="work">
     <div class="columns is-multiline">
       <div *ngFor="let workItem of data?.Work" class="column is-one-third">
-        <app-cv-entry-card [Data]="workItem"
-          ><div [innerHTML]="workItem.Content"></div>
+        <app-cv-entry-card [Data]="workItem">
+          <p [innerHTML]="workItem.Content"></p>
+          <p
+            class="has-text-grey"
+            *ngIf="workItem.Organization"
+            [innerHTML]="workItem.Organization"
+          ></p>
         </app-cv-entry-card>
       </div>
     </div>

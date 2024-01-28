@@ -38,8 +38,6 @@ export class CvHomeComponent implements OnInit {
   ngOnInit(): void {
     this.httpClient.get<CvContent>(this.url).subscribe((res) => {
       this.data = res;
-
-      console.log(this.data.Work);
     });
   }
 }
